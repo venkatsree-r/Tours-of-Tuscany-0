@@ -1,0 +1,68 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 170px;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 100;
+}
+.left,
+.middle,
+.right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    height: 120px;
+}
+.sign-up{
+    background-color: #fa8b02;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    font-size: medium;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+}
+.login{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+    margin-right: 9px;
+}
+select{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: #cac8c7;
+    margin-right: 9px;
+}
+.mid-b{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    margin-right: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+.mid-f{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    margin-right: 10px;
+    font-size: medium;
+    border-bottom: 2px solid #fa8b02;
+    cursor: pointer;
+}

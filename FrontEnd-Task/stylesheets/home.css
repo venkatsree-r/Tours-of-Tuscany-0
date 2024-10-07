@@ -1,0 +1,147 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.bg-img{
+    width: 100%;
+    margin-bottom: 120px;
+}
+.box1{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+    color: white;
+}
+h1{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5,h1{
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.d1{
+    color: black;
+    display: block;
+    margin-top: 20px;
+    font-size: 12px;
+    margin: none;
+    padding-bottom: 15px;
+}
+.ele{
+    display: grid;
+    align-items: center;
+    border-right: 0.1px solid #cac8c7;
+    padding-bottom: 20px;
+    width: 170px;
+    margin-left: 20px;
+}
+input[type=date],
+input[type=time]{
+    border: none;
+    color: #cac8c7;
+}
+.b{
+    display: flex;
+    align-items: center; 
+}
+.search{
+    background-color: #fa8b02;
+    border: none;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.box2{
+    margin-left: 100px;
+    display: grid;
+    margin-right: 100px;
+}
+.l1{
+    position: relative;
+}
+.b1{
+    background-color: #efefef;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    border: none;
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+}
+.b2{
+    background-color: #fa8b02;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+    color: white;
+    cursor: pointer;
+}
+.l2{
+    display: flex;
+}
+.post,
+.n2p1,
+.n2p2,
+.n3p1,
+.n3p2,
+.n4p1{
+    display: inline-block;
+}
+.igm{
+    height: 405px;
+    width: 280px;
+}
+.post{
+    width: 280px;
+    margin-right: 60px;
+}
+.n1{
+    font-weight: bolder;
+    font-size: 21px;
+    margin: 0px;
+}
+.n2p1{
+    color: #727272;
+    margin: 0px;
+}
+.n2p2{
+    color: #fa8b02;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 0px 0px 6px; 
+
+}
+.in3p1{
+    padding-top: 0px;
+}
+.n3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.1px;
+    color: #fdcb8c;
+    font-size: 13px;
+    margin: 10px 0px 10px 0px;
+}
+.n3p1,
+.n3p2,
+.n4p1{
+    margin: 0px;
+}
+.n4{
+    color: #545454;
+}
