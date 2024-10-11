@@ -318,8 +318,24 @@ h5,h1{
 }
 .box7{
     margin: 0px 100px 130px 100px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+}
+@media (max-width: 750px){
+    .box7{
+        grid-template-columns: 300px 300px;
+    }
+    .b7l1{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 350px){
+    .box7{
+        grid-template-columns: 300px;
+    }
+    .b7l1{
+        margin-bottom: 20px;
+    }
 }
 .b7h3,
 .eruo,
@@ -333,9 +349,8 @@ h5,h1{
     margin-left: 100px;
     margin-bottom: 50px;
 }
-.b7l1,
 .ib7{
-    width: 300px;
+    width: 100%;
 }
 .eruo,
 .cost,
@@ -345,7 +360,7 @@ h5,h1{
     display: inline-block;
 }
 .b7p1{
-    height: 300px;
+    height: 280px;
 }
 .b7p2{
     height: 350px;
@@ -357,6 +372,7 @@ h5,h1{
 .b7l1{
     border-radius: 20px;
     transition: all 0.2s;
+    margin-left: 20px;
 }
 .b7l1:hover{
     box-shadow: 0px 0px 5px rgba(0,0,0,0.4);

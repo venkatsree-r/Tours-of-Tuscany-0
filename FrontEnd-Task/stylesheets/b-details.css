@@ -67,4 +67,52 @@
     display: flex;
     justify-content: center;
     font-size: 12px;
+    margin-top: 15px;
+}
+.b9l2{
+    border-top: 1px solid #6b6b6b;
+    border-bottom: 1px solid #6b6b6b;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.social-m button{
+    background-color: #fa8b02;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.contacts img,
+.contacts div{
+    display: inline-block;
+    font-size: 13px;
+}
+.contacts div div{
+    color: lightgrey;
+    padding-bottom: 6px;
+}
+.help div,
+.home div,
+.services div{
+    color: lightgrey;
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.home a{
+    color: lightgrey;
+}
+@media(max-width:350px){
+    .b9l2{
+        grid-template-columns: 1fr;
+    }
+    .box9{
+        width: 100%;
+        background-color: #303030;
+    }
 }
