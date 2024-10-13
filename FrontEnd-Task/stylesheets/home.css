@@ -91,7 +91,8 @@ h5,h1{
     cursor: pointer;
 }
 .l2{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .post,
 .n2p1,
@@ -146,15 +147,14 @@ h5,h1{
 }
 .box3{
     margin: 0px 100px 100px 100px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .b3p1{
-    flex: 1;
     margin-right: 210px;
 }
 .b3p2{
-    flex: 1;
     padding-top: 120px;
 }
 .b3l1{
@@ -168,7 +168,8 @@ h5,h1{
     margin-bottom: 35px;
 }
 .b3l4{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 30px;
 }
 .b3b1{
@@ -230,6 +231,7 @@ h5,h1{
 .box5{
     margin: 0px 250px 10px 155px;
     display: flex;
+
 }
 .b5o{
     margin-right: 30px;
@@ -274,13 +276,13 @@ h5,h1{
     background-color: rgba(255, 255, 255, 0.4);
     position: absolute;
     display: grid;
-    grid-template-columns: 250px 250px;
+    grid-template-columns: 1fr 1fr;
     top: 140px;
     left: 110px;
     border-radius: 20px;
     padding: 10px;
     padding-bottom: 80px;
-    padding-right: 30px;
+    padding-right: 73px;
     position: relative;
 }
 .b6l1,
@@ -329,12 +331,24 @@ h5,h1{
         margin-bottom: 20px;
     }
 }
-@media (max-width: 350px){
+@media (max-width: 400px){
     .box7{
         grid-template-columns: 300px;
     }
     .b7l1{
         margin-bottom: 20px;
+    }
+    .l2{
+        grid-template-columns: 1fr;
+    }
+    .box3{
+        grid-template-columns: 1fr;
+    }
+    .b3l4{
+        grid-template-columns: 1fr;
+    }
+    .box5{
+        display: grid;
     }
 }
 .b7h3,
